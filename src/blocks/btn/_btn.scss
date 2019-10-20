@@ -7,8 +7,17 @@
     color: #194277;
     text-decoration: none;
    
+    &--big {
+        padding: 16px 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #3695ff !important;
+        border-radius: 50px !important;
+    }
+
     &:hover{
-color: white;
-background-color:#194277 ;
+    color: white;
+    background-color:#194277 ;
     }
 }
