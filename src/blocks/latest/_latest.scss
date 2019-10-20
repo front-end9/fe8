@@ -1,12 +1,10 @@
-.latest {
-    padding-top: 85px;
-    padding-bottom: 150px;
-
-    &__panel {
-        margin-bottom: 50px;
+.latest{
+    padding-top: 96px;
+    padding-bottom: 200px;
+    &__panel{
+        margin-top: 52px;
     }
-}
-
-.title__text {
-    margin-bottom: 100px;
+    &__title{
+        margin-bottom: 48px;
+    }
 }
