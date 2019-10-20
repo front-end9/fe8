@@ -1,0 +1,9 @@
+mixin nav
+    nav.nav
+        ul.nav__list
+            each val in ['About Me','Services','My Works','Clients']
+                li.nav__item
+                    a(href="javascript:void(0)").nav__link= val
+        hr.nav__devider
+        +social.nav__social
+            
