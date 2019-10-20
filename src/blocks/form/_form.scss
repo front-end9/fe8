@@ -1,0 +1,23 @@
+.form{
+    .btn{
+        margin: 0 auto;
+    }
+    &__input{
+        padding: 18px 30px;
+        color: #5a5a5a;
+        width: 100%;
+        max-width: 520px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        opacity: 0.5;
+        border: 1px solid  #5a5a5a; ;
+    }
+    &__input--textarea{
+        margin-bottom: 45px;
+        min-height: 180px;
+    }
+    &__input:focus{
+        opacity: 1;
+        border-color:black;
+    }
+}
