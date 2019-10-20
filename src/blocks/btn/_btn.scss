@@ -16,16 +16,13 @@
     
     &--big {
         border-radius: 28px;
-        padding: 22px;
-    }
-   
-    &--big {
-        padding: 16px 0;
+        padding: 22px 0;
+    
         text-align: center;
         text-transform: uppercase;
         font-weight: 700;
         color: #3695ff !important;
-        border-radius: 50px !important;
+        width: 200px;
     }
 
     &:hover{
