@@ -1,0 +1,31 @@
+.social{
+    &__list{
+        display:flex;
+        justify-content:center;
+    }
+    &__item{
+        background-color: #686868;
+        min-width: 50px;
+        min-height: 50px;
+        border-radius:50px ;
+        text-align: center;
+        opacity: 0.4;
+        margin-left:25px;
+        margin-right:25px;
+    }
+    &__link{
+        
+        text-decoration:none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 50px;
+        min-height: 50px;
+        text-align: center;
+    }
+    &__item:hover{
+        opacity: 1;
+        background-color:blue;
+    }
+}
